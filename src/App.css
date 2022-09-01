@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+
+.vacation {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 5px;
+  margin: 5px;
+  
+}
+
+img > .vacation {
+  position: relative;
+  width: 90%;
+}
+
+.vacations {
+  display: flex;
+  flex-flow: wrap; 
+}
+
+.following {
+  border-radius: 50%;
+  width: 10px;
+  background-color: red;
+  border: red 1px solid;
+  padding: 2px;
+}
